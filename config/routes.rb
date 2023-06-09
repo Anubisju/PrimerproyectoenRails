@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  get "/home", to: 'news#index'
-  get "/projects", to: 'news#index'
-  get "/contact", to: 'news#index'
+  get "/home", to: "news#home"
+  get "/projects", to: "news#projects"
+  get "/contact", to: "news#contact"
+
+end
